@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="input.css">
+    <title>KFC</title>
+</head>
+<body class="bg-black text-white">
+<!-- Nav-section -->
+  <header>
+    <nav class="w-screen fixed top-0 h-21 p-2 bg-black z-30 flex items-center lg:pl-12 lg:pr-12 xl:w-screen 2xl:h-44">
+      <div class="nav-header w-full flex justify-between items-center fixed">
+      
+     <div class="items-container flex ">
+
+        <div class="pl-6 pr-6 z-20 max-[500px]:w-screen flex justify-between items-center lg:p-0 md:w-fit xl:w-fit gap-2.5">
+           <button id="burger-btn" class="burger-btn pl-2.5 flex items-center cursor-pointer"><i class="fa-solid fa-bars-staggered text-2xl"></i></button>
+           <img src="images/brand-logo.png" class="brand-logo w-13 md:w-18 lg:w-18 xl:w-18">
+        </div>
+            
+        <nav class="order-mobile w-screen flex justify-center items-center bg-black fixed top-18 z-10 pl-2.5 pr-2.5 pt-2.5 pb-2.5 md:fixed md:top-18 left-0 lg:w-screen xl:static xl:w-fit p-0">
+          <div class="order-option w-80 flex justify-center gap-2.5 uppercase xl:w-auto">
+
+            <div class="option-a w-auto flex items-center justify-center bg-[#1C1816] border-2 pt-1.5 pb-1.5 pl-3 pr-3  border-[#EA002A] rounded-sm cursor-pointer">
+              <img src="images/delivery.png" class="w-8">
+               <p class="font-bold">Delivery</p>
+                </div>
+
+            <div class="option-a flex items-center justify-center bg-[#1C1816] border-none border-2 pt-1.5 pb-1.5 pl-3 pr-3 rounded-sm cursor-pointer">
+              <img src="images/pickup.png" class="w-8">
+                <p class="font-bold">Pikup</p>
+                  </div>
+
+            <div class="option-a flex items-center justify-center bg-[#1C1816] border-none border-2 pt-1.5 pb-1.5 pl-3 pr-3  rounded-sm cursor-pointer">
+              <img src="images/merch.png" class="w-8">
+               <p class="font-bold">Merch</p>
+                </div>
+
+          </div>
+        </nav>
+     </div>
+<!-- Login Btn -->
+        <div class="order-mobile relative top-6 z-60 sm:flex justify-end sm:top-0 md:mr-14 pr-8 md:p-0">
+         <img src="images/fly-cart.png" class=" hidden sm:flex h-12 w-12 cursor-pointer">
+          <button class="hidden login-btn min-[500px]:block sm:flex items-center justify-center bg-[#EA002A] h-10 w-16 rounded-xs cursor-pointer">Login</button>
+          <img src="images/fly-cart.png" class="h-12 w-12 cursor-pointer sm:hidden md:hidden">
+           </div>  
+           
+     </div>
+    </nav>
+</header>
+
+<!-- Main Section -->
+<section>
+ <div class=" w-100% h-40 fixed"></div>
+ <!-- images slide -->
+  <div class="btn-img relative">
+ <div class="btn mt-24 overflow-hidden">
+    <div class="coursel flex animate-slide w-screen mt-8 md:m-0 lg:w-full sm:h-auto 2xl:h-170">
+      <img src="images/slide-imges1.jpeg">
+      <img src="images/banner-4.jpeg">
+      <img src="images/banner-01.jpg">
+      <img src="images/banner1.jpg">
+      <img src="images/banner3.jpg">
+      <img src="images/banner-image.jpg">
+    </div>
+  <!-- images btn -->
+<div class="btn-click w-screen flex justify-between items-center pl-2 pr-2 absolute bottom-26 md:bottom-34 lg:bottom-54 2xl:bottom-84 z-10">
+        <button class="h-5 flex justify-center items-center bg-[#ea002b44] text-black rounded-full cursor-pointer md:ml-4">
+            <i class="fa-solid fa-angle-left"></i>
+         </button>
+         <button class="h-5 flex items-center bg-[#ea002baf] rounded-full text-black cursor-pointer md:mr-8 ">
+               <i class="fa-solid fa-angle-right"></i>
+          </button>
+       </div>
+    </div>
+  </div>
+
+    <a href="##" class="flex justify-center items-center text-white font-jost">
+     <h2 class="bg-[#EA002A] h-10 w-135 ml-2 mr-2 mt-4 flex items-center justify-center text-center rounded-lg font-bold uppercase">reorder</h2>
+      </a>
+
+
+  <!--Mobile browser heading-section-1 -->
+      <div class="container pl-8 pr-8 md:hidden lg:hidden xl:hidden">
+      <div class="flex justify-between mt-6">
+        <div class="items-title flex flex-col mb-4">
+          <h2 class="font-bold xl:text-2xl">EXPLORE MENU</h2>
+           <div class="h-0.5 w-16 bg-[#EA002A] rounded-b-xs mt-0.5"></div>
+        </div>
+       
+        <div class="items-title flex flex-col mb-4">
+           <div class="uppercase font-bold text-xs">view all</div>
+           <div class="h-0.5 w-10 bg-[#EA002A] rounded-b-xs mt-0.5"></div>
+        </div>
+      </div>
+ <!-- Mobile-browser-boxes-->
+    <div class="row flex gap-0.5 md:hidden lg:hidden">
+
+    <div class="col-1 w-full pl-0.5 pr-0.5">
+         <div class="Mobile-browser h-63 w-full max-w-50 flex justify-center items-center mt-1.5 mb-2 pl-1.5 pr-1.5 border border-dashed rounded-b-sm relative">
+         <a href="##" class="a"><img src="images/1b.png" class="h-24"></a>
+         <h6 class="Detail-design absolute top-1.5 mb-2">Promotion</h6>
+      </div> 
+      </div>
+
+      <div class="col-2 w-full pl-0.5 pr-0.5">
+          <div class="Mobile-browser h-auto w-full max-w-50 flex justify-center items-center mt-1.5 mb-2 pl-1.5 pr-1.5 border border-dashed rounded-b-sm relative">
+          <a href="##" class="a"><img src="images/bg-img.png" class="h-24 mt-6"></a>
+          <h6 class="Detail-design absolute top-1.5 mb-2 leading-4 font-bold">Everyday Value</h6>
+        </div> 
+          <div class="Mobile-browser h-auto w-full max-w-50 flex justify-center items-center mt-1.5 mb-2 pl-1.5 pr-1.5 border border-dashed rounded-b-sm relative">
+          <a href="##" class="a"><img src="images/3gbb.png" class="h-20 mt-10"></a>
+          <h6 class="Detail-design inline absolute top-1.5 mb-2 leading-4 font-bold">Ala-Carte-&-Combos</h6>
+       </div>
+       </div>   
+
+      <div class="col-3 w-full pl-0.5 pr-0.5">
+          <div class="Mobile-browser h-auto w-full max-w-60 flex justify-center items-center mt-1.5 mb-2 pl-1.5 pr-1.5 border border-dashed rounded-b-sm relative">
+          <a href="##" class="a"><img src="images/2b.png" class="h-24 mt-6"></a>
+          <h6 class="Detail-design absolute top-1.5 mb-2 leading-4 font-bold">Signatur-Boxes</h6>
+       </div> 
+          <div class="Mobile-browser h-auto w-full max-w-60 flex justify-center items-center  mt-1.5 mb-2 pl-1.5 pr-1.5 border border-dashed rounded-b-sm relative">
+           <a href="##" class="a"><img src="images/3b.png" class="h-20 mt-9"></a>
+           <h6 class="Detail-design inline absolute top-1.5 mb-2 leading-4 font-bold">Sharing</h6>
+        </div>
+        </div>
+    </div>
+    </div>
+
+<!--md&lg browser heading-section-1 -->
+   <div class="container hidden md:block w-auto ml-18 mr-18 2xl:ml-52 2xl:mr-52 overflow-hidden">
+      <div class="flex justify-between mt-6">
+        <div class="items-title flex flex-col mb-4">
+          <h2 class="font-bold text-2xl md:text-[26px] 2xl:text-4xl">EXPLORE MENU</h2>
+           <div class="h-0.5 w-16 bg-[#EA002A] rounded-b-xs mt-0.5"></div>
+        </div>
+       
+        <div class="items-title flex flex-col mb-4">
+           <div class="uppercase font-bold text-xs">view all</div>
+           <div class="h-0.5 w-10 bg-[#EA002A] rounded-b-xs mt-0.5"></div>
+        </div>
+      </div>
+<!-- container-boxes-1 -->
+        <div id="product-Slider" class="slider-wrapper flex">
+         <!-- box-1 -->
+         <div class="slick-slider pl-5 pr-5">
+             <div class="flex flex-col justify-center items-center h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400">
+              <a href="##" class="a"><img src="images/1b.png" class="h-30"></a>
+              <h6 class="Detail-design">Promotion</h6>
+              <h6 class="flex h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div>              
+              </div>   
+          <!-- box-2 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="flex flex-col justify-center items-center h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400">
+              <a href="##" class="a"><img src="images/bg-img.png" class="h-34 w-38"></a>
+              <h6 class="Detail-design">Everyday Value</h6>
+              <h6 class="flex h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div> 
+            </div> 
+          <!-- box-3 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="flex flex-col justify-center items-center h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400">
+              <a href="##" class="a"><img src="images/3gbb.png" class="h-full w-44"></a>
+              <h6 class="Detail-design">Ala-Carte-&-Combos</h6>
+              <h6 class="h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div> 
+            </div> 
+          <!-- box-4 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] flex flex-col justify-center items-center rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400 ">
+              <a href="##" class="a"><img src="images/2b.png" class="h-32 w-44"></a>
+              <h6 class="Detail-design">Signatur-Boxes</h6>
+              <h6 class="h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div>  
+            </div> 
+            <!-- box-5 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] flex flex-col justify-center items-center rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400 ">
+              <a href="##" class="a"><img src="images/3b.png" class="h-32 w-44"></a>
+              <h6 class="Detail-design">Sharing</h6>
+              <h6 class="h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div>  
+            </div> 
+
+             <!-- box-6 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] flex flex-col justify-center items-center rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400 ">
+              <a href="##" class="a"><img src="images/3b.png" class="h-32 w-44"></a>
+              <h6 class="Detail-design">Sharing</h6>
+              <h6 class="h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div>  
+            </div> 
+
+             <!-- box-7 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] flex flex-col justify-center items-center rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400 ">
+              <a href="##" class="a"><img src="images/3b.png" class="h-32 w-44"></a>
+              <h6 class="Detail-design">Sharing</h6>
+              <h6 class="h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div>  
+            </div> 
+
+             <!-- box-8 -->
+            <div class="slick-slider pl-5 pr-5">
+             <div class="h-50 w-46 2xl:w-56 mt-8 bg-[#1C1816] flex flex-col justify-center items-center rounded-l-full rounded-tr-full relative cursor-pointer hover:-translate-y-4 transition-all duration-400 ">
+              <a href="##" class="a"><img src="images/3b.png" class="h-32 w-44"></a>
+              <h6 class="Detail-design">Sharing</h6>
+              <h6 class="h-1 w-13 bg-[#EA002A] rounded-2xl mt-1"></h6>
+              <div class="h-4 w-4 bg-black rounded-full absolute bottom-1 left-41"></div>
+              </div>  
+            </div> 
+
+          </div> 
+          </div> 
+
+   <div class="btn-click hidden md:flex justify-between items-center relative bottom-28 ml-7 mr-10 2xl:ml-44 2xl:mr-44">
+        <button id="prev-btn" class="slide-btn h-5 flex justify-center items-center bg-[#ea002b44] text-black rounded-full ml-3 cursor-pointer">
+            <i class="fa-solid fa-angle-left"></i>
+         </button>
+         <button id="next-btn" class="slide-btn hidden lg:flex justify-center items-center h-5 bg-[#ea002baf] rounded-full text-black cursor-pointer">
+            <i class="fa-solid fa-angle-right"></i>
+         </button>
+      </div>  
+     </div>
+<!-- heading-section-2 -->
+    <div class="container w-auto pl-8 pr-8 md:ml-16 md:mr-16 mt-4 2xl:ml-52 2xl:mr-52 overflow-hidden">
+        <div class="items-title flex flex-col mb-4">
+          <h2 class="font-bold text-2xl md:text-[26px]  2xl:text-4xl">BEST SELLERS</h2>
+          <div class="h-0.5 w-16 bg-[#EA002A] rounded-b-xs mt-0.5"></div>
+        </div>
+         
+<!-- container-boxes-2  -->
+      <div class="sellers-box flex flex-2 sm:flex w-fit gap-2 overflow-auto">
+      <!-- box-1 -->
+        <div class="best-seller flex flex-col bg-[#1C1816] relative cursor-pointer md:w-72">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+
+          <div class="heading font-bold text-18 md:ml-4 mt-4 text-2xl ">Krunch Burger</div>
+          <div class="wdn-ribon h-7.5 w-16 flex bg-[#EA002A] justify-end absolute right-0 top-22">
+            <h5 class="text-sm mt-2 font-medium text-center">Rs</h5>
+            <h5 class="font-bold text-lg">310</h5>
+          </div>
+          <img src="images/bg-img.png" class="w-full h-auto rounded-md mb-2">
+        </div>
+
+      <!-- box-2 -->
+        <div class="best-seller flex flex-col items-center bg-[#1C1816] relative cursor-pointer md:w-72">
+          <div class="kfc-box absolute top-0 flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+
+          <div class="heading font-bold text-18 mt-10 text-2xl md:ml-4 ">Krunch Burger</div>
+          <div class="wdn-ribon h-7.5 w-16 flex bg-[#EA002A] justify-end absolute right-0 top-22">
+            <h5 class="text-sm mt-2 font-medium text-center">Rs</h5>
+            <h5 class="font-bold text-lg">770</h5>
+          </div>
+          <img src="images/bg-img5.png" class="h-auto">
+        </div>
+
+      <!-- box-3 -->
+        <div class="best-sellers hidden sm:block md:block flex-col bg-[#1C1816] relative cursor-pointer md:w-72">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+
+          <div class="heading font-bold text-18 md:ml-4 mt-4 text-2xl ">Krunch Burger</div>
+          <div class="wdn-ribon h-7.5 w-16 flex bg-[#EA002A] justify-end absolute right-0 top-22">
+            <h5 class="text-sm mt-2 font-medium text-center">Rs</h5>
+            <h5 class="font-bold text-lg">620</h5>
+          </div>
+          <img src="images/bg-img3.png" class="">
+        </div>
+
+      <!-- box-4 -->
+        <div class="best-sellers hidden md:block flex-col bg-[#1C1816] relative cursor-pointer md:w-72">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+
+          <div class="heading font-bold text-18 md:ml-4 mt-4 text-2xl ">Krunch Burger</div>
+          <div class="wdn-ribon h-7.5 w-16 flex bg-[#EA002A] justify-end absolute right-0 top-22">
+            <h5 class="text-sm mt-2 font-medium text-center">Rs</h5>
+            <h5 class="font-bold text-lg">670</h5>
+          </div>
+          <img src="images/bg-img4.png" class="h-auto">
+        </div>
+
+      <!-- box-5 -->
+        <div class="best-sellers hidden md:block flex-col items-center justify-center bg-[#1C1816] relative cursor-pointer md:w-72">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+
+          <div class="heading font-bold text-18 ml-4 mt-4 text-2xl ">Krunch Burger</div>
+          <div class="wdn-ribon h-7.5 w-16 flex bg-[#EA002A] justify-end absolute right-0 top-22">
+            <h5 class="text-sm mt-2 font-medium text-center">Rs</h5>
+            <h5 class="font-bold text-lg">590</h5>
+          </div>
+          <img src="images/bg-img2.png" class="h-auto">
+        </div>
+
+      </div> 
+      </div>
+
+ <!-- heading-section-3 -->
+      <div class="container w-auto pl-8 pr-8 md:w-auto md:ml-16 md:mr-16 mt-10 2xl:ml-52 2xl:mr-52 overflow-hidden ">
+        <div class="items-title">
+          <h2 class="font-bold text-2xl uppercase inline  2xl:text-4xl">top deals</h2>
+            <div class="h-0.5 w-20 bg-[#EA002A] rounded-b-xs mt-0.5"></div>
+      </div>
+<!-- container-boxes-3 -->
+      <div class="container-boxes grid grid-cols-2 align-middle sm:grid-cols-3 gap-2.5 md:gap-0 md:flex items-center overflow-x-scroll">
+        <!-- box-1 -->
+         <div class="col md:pl-3 md:pr-3">
+          <div class="bg-[#1C1816] flex flex-col items-center rounded-lg relative mt-4 mb-10 pl-2.5 pr-2.5 pb-9 cursor-pointer md:w-64">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+           <div class="icon text-2xl absolute right-2 top-2 text-[#EA002A]"><i class="fa-regular fa-heart"></i></div>
+            <img src="images/2b.png" class="h-52 w-46">
+          <div class="card-body flex-col justify-start">
+            <div class="cart-head flex justify-start items-start">
+             <h5 class="card-title font-bold flex items-start pt-2 mb-2">Strips Chips N' Dips</h5>
+              </div>
+               <p class="line-clamp-2 mb-4">4 Boneless Strips, Regular Fries, 2 Dips (Smoke Show & Ranch) and a Drink</p>
+                <div class="kfc-price font-bold">Rs 750</div>
+           </div>
+           <div class="price-lable absolute top-94">
+            <button class="add-line flex items-center bg-[#EA002A] pl-2 pr-2 rounded-lg whitespace-nowrap hover:bg-white text-[cursor-pointer hover:text-[#EA002A] cursor-pointer">
+            <div class="text-xl">+</div>
+            <div class="font-bold uppercase mt-2 mb-2 ml-0.5 mr-0.5 text-sm">Add To Bucket</div>
+            </button>     
+           </div>
+          
+          </div> 
+          </div>
+        <!-- box-2 -->
+         <div class="col md:pl-3 md:pr-3">
+        <div class=" bg-[#1C1816] flex flex-col items-center rounded-lg relative mt-4 mb-10 pl-2.5 pr-2.5 pb-9 cursor-pointer md:w-64">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+           <div class="icon text-2xl absolute right-2 top-2 text-[#EA002A]"><i class="fa-regular fa-heart"></i></div>
+            <img src="images/2050.png" class="h-52 w-46">
+          <div class="card-body flex-col justify-start">
+            <div class="cart-head flex justify-start items-start">
+             <h5 class="card-title font-bold flex items-start pt-2 mb-2">Value Bucket</h5>
+              </div>
+               <p class="line-clamp-2 mb-4">Enjoy 9 pcs of our Signature Crispy Fried Chicken, hand-breaded in-house. Rs. 50 from every bucket goes to the Mitao Bhook Foundation.</p>
+                <div class="kfc-price font-bold">Rs 2050</div>
+           </div>
+           <div class="price-lable absolute top-94">
+            <button class="add-line flex items-center bg-[#EA002A] pl-2 pr-2 rounded-lg whitespace-nowrap hover:bg-white text-[cursor-pointer hover:text-[#EA002A] cursor-pointer">
+            <div class="text-xl">+</div>
+            <div class="font-bold uppercase mt-2 mb-2 ml-0.5 mr-0.5 text-sm">Add To Bucket</div>
+            </button>     
+           </div>
+          
+          </div> 
+         </div>
+         <!-- box-3 -->
+          <div class="col hidden md:block md:pl-3 md:pr-3">
+        <div class="w-42 bg-[#1C1816] flex flex-col items-center rounded-lg relative mt-4 mb-10 pl-2.5 pr-2.5 pb-9 cursor-pointer md:w-64">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+           <div class="icon text-2xl absolute right-2 top-2 text-[#EA002A]"><i class="fa-regular fa-heart"></i></div>
+            <img src="images/3b.png" class="h-52">
+          <div class="card-body flex-col justify-start">
+            <div class="cart-head flex justify-start items-start">
+             <h5 class="card-title font-bold flex items-start pt-2 mb-2">Family Festival 3</h5>
+              </div>
+               <p class="line-clamp-2 mb-4">An ultimate meal for the fam. It includes 4 Zinger burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner rolls + 1.5 Liter drink</p>
+                <div class="kfc-price font-bold">Rs 2590</div>
+           </div>
+           <div class="price-lable absolute top-94">
+            <button class="add-line flex items-center bg-[#EA002A] pl-2 pr-2 rounded-lg whitespace-nowrap hover:bg-white text-[cursor-pointer hover:text-[#EA002A] cursor-pointer">
+            <div class="text-xl">+</div>
+            <div class="font-bold uppercase mt-2 mb-2 ml-0.5 mr-0.5 text-sm">Add To Bucket</div>
+            </button>     
+           </div>
+          
+          </div> 
+          </div>
+        <!-- box-4 -->
+         <div class="col hidden md:block md:pl-3 md:pr-3">
+        <div class="w-42 bg-[#1C1816] flex flex-col items-center rounded-lg relative mt-4 mb-10 pl-2.5 pr-2.5 pb-9 cursor-pointer md:w-64">
+          <div class="kfc-box flex gap-1 justify-center">
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+            <div class="h-5.5 w-3.5 bg-[#EA002A] rounded-xs"></div>
+          </div>
+           <div class="icon text-2xl absolute right-2 top-2 text-[#EA002A]"><i class="fa-regular fa-heart"></i></div>
+            <img src="images/bimg2.png" class="h-52">
+          <div class="card-body flex-col justify-start">
+            <div class="cart-head flex justify-start items-start">
+             <h5 class="card-title font-bold flex items-start pt-2 mb-2">Xtreme Duo Box</h5>
+              </div>
+               <p class="line-clamp-2 mb-4">An ultimate meal for the fam. It includes 4 Zinger burgers + 4 pieces Hot and Crispy Chicken + 2 Dinner rolls + 1.5 Liter drink</p>
+                <div class="kfc-price font-bold">Rs 1560</div>
+           </div>
+           <div class="price-lable absolute top-94">
+            <button class="add-line flex items-center bg-[#EA002A] pl-2 pr-2 rounded-lg whitespace-nowrap hover:bg-white text-[cursor-pointer hover:text-[#EA002A] cursor-pointer">
+            <div class="text-xl">+</div>
+            <div class="font-bold uppercase mt-2 mb-2 ml-0.5 mr-0.5 text-sm">Add To Bucket</div>
+            </button>     
+           </div>
+          
+          </div>
+         </div> 
+
+        </div>
+    
+      </div>
+      </div>
+
+  <!-- made-easy-images -->
+   <!-- img-section-1 -->
+   <div class="flex flex-col gap-2 ml-4 mr-4 pl-4 pr-4 md:ml-20 md:mr-20 mt-10 2xl:ml-52 2xl:mr-52 overflow-hidden">
+    <div class="row flex flex-col md:flex-row gap-3">
+      <a href="">
+        <img src="images/wimg1.jpg" class="w-screen rounded-2xl cursor-pointer md:w-xl">
+      </a>
+
+      <a href="">
+        <img src="images/wimg2.jpg" class="w-screen rounded-2xl cursor-pointer md:w-xl">
+      </a>
+
+    </div>
+<!-- img-section-2 -->
+    <div class="gap-3 grid grid-cols-1 md:flex md:flex-2 mt-3">
+      <a href="">
+        <img src="images/wimg3.png" class="w-screen rounded-2xl cursor-pointer md:w-xl">
+      </a>
+
+      <div class="kfc-basket bg-[#1C1816] rounded-2xl h-80 flex flex-col justify-center items-center pl-2.5 pr-2.5 pt-4 pb-2 md:w-xl md:h-47 lg:h-84 ">
+      <a href="##"></a>
+        <img src="images/wimg4.jpg" class="h-24 md:h-20 lg:h-36">
+        <h5 class="font-bold text-xl mt-3.5 mb-2 line-clamp-1 md:line-clamp-2 ">Adding 11 herbs and spices, Explore our menu and add items to your cart.</h5>
+         <div class="price-lable">
+          <button class="add-line h-8 flex items-center justify-center bg-[#EA002A] pl-2 pr-2 rounded-lg cursor-pointer md:h-8 w-44 lg:h-12.5 lg:w-54">
+            <div class="font-bold uppercase mt-2 mb-2 ml-0.5 mr-0.5 text-xl">explore menu</div>
+          </button>     
+           </div>
+      </div>
+
+    </div>
+  </span>
+</section>
+
+<!-- Footer section -->
+<footer>
+  <div class="footer-container h-200 mt-12.5 pt-12.5 bg-[#1C1816] md:h-113">
+    <div class="container w-fit ml-13 mr-13 pl-2.5 pr-2.5 h-100">
+
+      <div class="social-container flex justify-center items-center gap-13 ">
+        <img src="images/brand-logo.png" class="brand-logo">
+         <div class="social-icon flex justify-center items-center gap-3">
+          <a href="">
+           <img src="images/social-icon.png" class="h-12 rounded-full">
+            </a>
+              <a href="">
+                <img src="images/socialicon2.png" class="h-12 rounded-full">
+                 </a>
+                  <a href="">
+                     <img src="images/socialicon3.jpg" class="h-12 rounded-full">
+                      </a>
+             </div>
+          </div>
+
+
+<div class="row md:flex">
+  <div class="col-pad pl-3 pr-3 w-71">
+    <ul class="footer-info mb-4 pl-8 ">
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">About Us </li>
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Mitao Bhook</li>
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Mitao Bhook - Scholarship</li>
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Privacy Policy</li> 
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Careers</li>
+
+  </ul>
+</div>
+
+<div class="col-pad pl-3 pr-3 w-71">
+  <ul class="footer-info mb-4 pl-8 ">
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Contact Us</li>
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Store Locator</li>
+       <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Track Order</li> 
+  </ul>
+</div>
+
+<div class="col-pad pl-3 pr-3 w-71">
+  <ul class="footer-info mb-4 pl-8 ">
+    <li class="mt-2.5 text-lg cursor-pointer hover:text-[#EA002A]">Terms & Conditions</li> 
+  </ul>
+</div>
+
+<div class="col-pad pl-3 pr-3 w-71">
+    <div class="app-kfc">
+      <img src="images/mt3.png" class="mt-3 cursor-pointer">
+       <img src="images/mt4.png" class="mt-3 cursor-pointer">
+    </div>       
+  </div>
+</div>
+
+<div class="powerd-by-kfc mt-2 pl-3 pr-3 flex items-end justify-between">
+  <h6 class="font-bold">2026 KFC. All rights reserved</h6>
+   <div>
+    <h1 class="text-xl text-[#EA002A] font-bold">Powered by</h1>
+    <a href="##">SimpleX Technology Solutions</a>
+   </div>
+  
+</div>
+
+    </div>
+  </div>
+</footer>
+
+
+ <!-- site-drawer -->
+<div id="drawer" class="drawer fixed top-0 left-0 h-full w-64 bg-[#1C1816] pl-5 pr-5 shadow-lg z-50 flex flex-col">
+
+  <button class="login-btn sm:flex items-center justify-center bg-[#EA002A] h-10 w-16 mt-4 rounded-xs cursor-pointer">Login</button>
+    <div class="theme-color h-10 w-24 mt-4 rounded-4xl gap-1.5 bg-black flex justify-center items-center relative left-28">
+      <div class="font-bold cursor-pointer">Day</div>
+      <div class="font-bold cursor-pointer">Night</div>
+    </div>
+<hr class="mt-4 mb-4">
+    <div class="flex flex-col">
+      <ul>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-2.5 hover:p-1 hover:transition-all duration-200 ease-in delay-0"><img src="images/drawer icon1.jpg" class="w-8" alt="icon">Store Locator</a></li>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-2.5 hover:p-1 hover:transition-all duration-200 ease-in delay-0"><img src="images/drawericon2.jpg" class="w-8" alt="icon">Track Order</a></li>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-2.5 hover:p-1 hover:transition-all duration-200 ease-in delay-0"><img src="images/drawericon3.jpg" class="w-8" alt="icon">Explore Menu</a></li>   
+      </ul>
+
+<hr class="mt-4 mb-4">
+      <ul>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-3 hover:p-2 hover:transition-all duration-200 ease-in delay-0">About Us</a></li>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-3 hover:p-2 hover:transition-all duration-200 ease-in delay-0">Terms & Condition</a></li>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-3 hover:p-2 hover:transition-all duration-200 ease-in delay-0">Privacy Policy</a></li>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-3 hover:p-2 hover:transition-all duration-200 ease-in delay-0">Contact Us</a></li>
+        <li><a href="##" class="flex items-center gap-2 hover:bg-gray-400 p-3 hover:p-2 hover:transition-all duration-200 ease-in delay-0">Mitao Bhook</a></li>
+      </ul>
+
+    </div>
+</div>
+
+<div id="drawerOverlay" class="overlay fixed inset-0 z-40"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
